@@ -1,0 +1,12 @@
+// fichier de variables custom
+@import "./includes/styles";
+// Bootstrap and its default variables
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+//CUSTOM CSS
+body {
+    font-family: $font-family;
+}
+@import '_header.scss';
+@import '_smallcase.scss';
+@import '_footer.scss';
