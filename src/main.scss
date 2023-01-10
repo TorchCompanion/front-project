@@ -8,5 +8,27 @@ body {
     font-family: $font-family;
 }
 @import '_header.scss';
-@import '_smallcase.scss';
 @import '_footer.scss';
+
+.conseil {
+    border: 1px solid $primary;
+}
+
+.footercontent
+{
+    margin:4vh;
+    background-color: $secondary;
+    height: 20vh;
+    width: 30vh;
+}
+
+.footeritem {
+    min-height: 17vh;
+    min-width: 25vh;
+    margin: 10px;
+    border: 4px solid $primary;
+}
+
+.imgfooter{
+    filter: brightness(300%);
+}
